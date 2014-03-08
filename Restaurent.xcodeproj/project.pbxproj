@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D45BC7117ECC13300AF7EB9 /* RestaurentMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D45BC7017ECC13300AF7EB9 /* RestaurentMediator.m */; };
+		3D45BC7417ECC32F00AF7EB9 /* HttpRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D45BC7317ECC32F00AF7EB9 /* HttpRequest.m */; };
+		3D45BC7717ECC34B00AF7EB9 /* HttpConnectionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D45BC7617ECC34B00AF7EB9 /* HttpConnectionManager.m */; };
+		3D922CE617EDC5FF00B6A3E7 /* tradi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3D922CE117EDC5FF00B6A3E7 /* tradi.jpg */; };
+		3D922CE717EDC5FF00B6A3E7 /* kebap.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3D922CE217EDC5FF00B6A3E7 /* kebap.jpg */; };
+		3D922CE817EDC5FF00B6A3E7 /* burger.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3D922CE317EDC5FF00B6A3E7 /* burger.jpg */; };
+		3D922CE917EDC5FF00B6A3E7 /* pizza.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3D922CE417EDC5FF00B6A3E7 /* pizza.jpg */; };
+		3D922CEA17EDC5FF00B6A3E7 /* sushis.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3D922CE517EDC5FF00B6A3E7 /* sushis.jpg */; };
+		3D922CED17EDD72300B6A3E7 /* LocationList.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D922CEC17EDD72300B6A3E7 /* LocationList.m */; };
 		3DE4AB1B17E7D4A600A3D8F0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DE4AB1A17E7D4A600A3D8F0 /* UIKit.framework */; };
 		3DE4AB1D17E7D4A600A3D8F0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DE4AB1C17E7D4A600A3D8F0 /* Foundation.framework */; };
 		3DE4AB1F17E7D4A600A3D8F0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DE4AB1E17E7D4A600A3D8F0 /* CoreGraphics.framework */; };
@@ -17,10 +26,24 @@
 		3DE4AB2F17E7D4A600A3D8F0 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DE4AB2E17E7D4A600A3D8F0 /* Default@2x.png */; };
 		3DE4AB3117E7D4A600A3D8F0 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DE4AB3017E7D4A600A3D8F0 /* Default-568h@2x.png */; };
 		3DE4AB3417E7D4A600A3D8F0 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DE4AB3217E7D4A600A3D8F0 /* MainStoryboard.storyboard */; };
-		3DE4AB3717E7D4A600A3D8F0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DE4AB3617E7D4A600A3D8F0 /* ViewController.m */; };
+		3DE4AB3F17E7D90900A3D8F0 /* RestaurentLocatonList.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DE4AB3E17E7D90900A3D8F0 /* RestaurentLocatonList.m */; };
+		3DE4AB4617E7DA6C00A3D8F0 /* SplashScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DE4AB4517E7DA6C00A3D8F0 /* SplashScreen.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3D45BC6F17ECC13300AF7EB9 /* RestaurentMediator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RestaurentMediator.h; sourceTree = "<group>"; };
+		3D45BC7017ECC13300AF7EB9 /* RestaurentMediator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RestaurentMediator.m; sourceTree = "<group>"; };
+		3D45BC7217ECC32F00AF7EB9 /* HttpRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpRequest.h; sourceTree = "<group>"; };
+		3D45BC7317ECC32F00AF7EB9 /* HttpRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HttpRequest.m; sourceTree = "<group>"; };
+		3D45BC7517ECC34B00AF7EB9 /* HttpConnectionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpConnectionManager.h; sourceTree = "<group>"; };
+		3D45BC7617ECC34B00AF7EB9 /* HttpConnectionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HttpConnectionManager.m; sourceTree = "<group>"; };
+		3D922CE117EDC5FF00B6A3E7 /* tradi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tradi.jpg; sourceTree = "<group>"; };
+		3D922CE217EDC5FF00B6A3E7 /* kebap.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kebap.jpg; sourceTree = "<group>"; };
+		3D922CE317EDC5FF00B6A3E7 /* burger.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = burger.jpg; sourceTree = "<group>"; };
+		3D922CE417EDC5FF00B6A3E7 /* pizza.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pizza.jpg; sourceTree = "<group>"; };
+		3D922CE517EDC5FF00B6A3E7 /* sushis.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sushis.jpg; sourceTree = "<group>"; };
+		3D922CEB17EDD72300B6A3E7 /* LocationList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationList.h; sourceTree = "<group>"; };
+		3D922CEC17EDD72300B6A3E7 /* LocationList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationList.m; sourceTree = "<group>"; };
 		3DE4AB1717E7D4A600A3D8F0 /* Restaurent.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Restaurent.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DE4AB1A17E7D4A600A3D8F0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		3DE4AB1C17E7D4A600A3D8F0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -35,8 +58,10 @@
 		3DE4AB2E17E7D4A600A3D8F0 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		3DE4AB3017E7D4A600A3D8F0 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		3DE4AB3317E7D4A600A3D8F0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		3DE4AB3517E7D4A600A3D8F0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		3DE4AB3617E7D4A600A3D8F0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3DE4AB3D17E7D90900A3D8F0 /* RestaurentLocatonList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RestaurentLocatonList.h; sourceTree = "<group>"; };
+		3DE4AB3E17E7D90900A3D8F0 /* RestaurentLocatonList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RestaurentLocatonList.m; sourceTree = "<group>"; };
+		3DE4AB4417E7DA6C00A3D8F0 /* SplashScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SplashScreen.h; sourceTree = "<group>"; };
+		3DE4AB4517E7DA6C00A3D8F0 /* SplashScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SplashScreen.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +78,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3D45BC6D17ECBFB800AF7EB9 /* mediator */ = {
+			isa = PBXGroup;
+			children = (
+				3D45BC6F17ECC13300AF7EB9 /* RestaurentMediator.h */,
+				3D45BC7017ECC13300AF7EB9 /* RestaurentMediator.m */,
+			);
+			name = mediator;
+			sourceTree = "<group>";
+		};
+		3D45BC6E17ECBFC200AF7EB9 /* connectionservice */ = {
+			isa = PBXGroup;
+			children = (
+				3D45BC7217ECC32F00AF7EB9 /* HttpRequest.h */,
+				3D45BC7317ECC32F00AF7EB9 /* HttpRequest.m */,
+				3D45BC7517ECC34B00AF7EB9 /* HttpConnectionManager.h */,
+				3D45BC7617ECC34B00AF7EB9 /* HttpConnectionManager.m */,
+			);
+			name = connectionservice;
+			sourceTree = "<group>";
+		};
+		3D922CE017EDC56E00B6A3E7 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				3D922CE117EDC5FF00B6A3E7 /* tradi.jpg */,
+				3D922CE217EDC5FF00B6A3E7 /* kebap.jpg */,
+				3D922CE317EDC5FF00B6A3E7 /* burger.jpg */,
+				3D922CE417EDC5FF00B6A3E7 /* pizza.jpg */,
+				3D922CE517EDC5FF00B6A3E7 /* sushis.jpg */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
 		3DE4AB0E17E7D4A600A3D8F0 = {
 			isa = PBXGroup;
 			children = (
@@ -83,11 +140,13 @@
 		3DE4AB2017E7D4A600A3D8F0 /* Restaurent */ = {
 			isa = PBXGroup;
 			children = (
+				3D922CE017EDC56E00B6A3E7 /* images */,
+				3D45BC6E17ECBFC200AF7EB9 /* connectionservice */,
+				3D45BC6D17ECBFB800AF7EB9 /* mediator */,
+				3DE4AB4017E7D91000A3D8F0 /* view */,
 				3DE4AB2917E7D4A600A3D8F0 /* AppDelegate.h */,
 				3DE4AB2A17E7D4A600A3D8F0 /* AppDelegate.m */,
 				3DE4AB3217E7D4A600A3D8F0 /* MainStoryboard.storyboard */,
-				3DE4AB3517E7D4A600A3D8F0 /* ViewController.h */,
-				3DE4AB3617E7D4A600A3D8F0 /* ViewController.m */,
 				3DE4AB2117E7D4A600A3D8F0 /* Supporting Files */,
 			);
 			path = Restaurent;
@@ -105,6 +164,19 @@
 				3DE4AB3017E7D4A600A3D8F0 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3DE4AB4017E7D91000A3D8F0 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				3DE4AB3D17E7D90900A3D8F0 /* RestaurentLocatonList.h */,
+				3DE4AB3E17E7D90900A3D8F0 /* RestaurentLocatonList.m */,
+				3DE4AB4417E7DA6C00A3D8F0 /* SplashScreen.h */,
+				3DE4AB4517E7DA6C00A3D8F0 /* SplashScreen.m */,
+				3D922CEB17EDD72300B6A3E7 /* LocationList.h */,
+				3D922CEC17EDD72300B6A3E7 /* LocationList.m */,
+			);
+			name = view;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,6 +235,11 @@
 				3DE4AB2F17E7D4A600A3D8F0 /* Default@2x.png in Resources */,
 				3DE4AB3117E7D4A600A3D8F0 /* Default-568h@2x.png in Resources */,
 				3DE4AB3417E7D4A600A3D8F0 /* MainStoryboard.storyboard in Resources */,
+				3D922CE617EDC5FF00B6A3E7 /* tradi.jpg in Resources */,
+				3D922CE717EDC5FF00B6A3E7 /* kebap.jpg in Resources */,
+				3D922CE817EDC5FF00B6A3E7 /* burger.jpg in Resources */,
+				3D922CE917EDC5FF00B6A3E7 /* pizza.jpg in Resources */,
+				3D922CEA17EDC5FF00B6A3E7 /* sushis.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -175,7 +252,12 @@
 			files = (
 				3DE4AB2717E7D4A600A3D8F0 /* main.m in Sources */,
 				3DE4AB2B17E7D4A600A3D8F0 /* AppDelegate.m in Sources */,
-				3DE4AB3717E7D4A600A3D8F0 /* ViewController.m in Sources */,
+				3DE4AB3F17E7D90900A3D8F0 /* RestaurentLocatonList.m in Sources */,
+				3DE4AB4617E7DA6C00A3D8F0 /* SplashScreen.m in Sources */,
+				3D45BC7117ECC13300AF7EB9 /* RestaurentMediator.m in Sources */,
+				3D45BC7417ECC32F00AF7EB9 /* HttpRequest.m in Sources */,
+				3D45BC7717ECC34B00AF7EB9 /* HttpConnectionManager.m in Sources */,
+				3D922CED17EDD72300B6A3E7 /* LocationList.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,6 +378,7 @@
 				3DE4AB3C17E7D4A600A3D8F0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
